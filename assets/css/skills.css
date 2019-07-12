@@ -10,6 +10,7 @@
 .skills {
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
+  padding-right:25px;
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
 }
@@ -19,3 +20,4 @@
 .js {width: 80%; background-color: #808080;} /* Dark Grey */
 .java {width: 60%; background-color: #808080;} /* Dark Grey */
 .as {width:75%; background-color:#808080} /* Dark Grey */
+.py {width:50%; background-color:#808080} /* Dark Grey */
