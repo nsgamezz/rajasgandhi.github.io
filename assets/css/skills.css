@@ -50,3 +50,15 @@ color: white; text-decoration: none;
     transform: translateY(-15px);
   }
 }
+
+body {
+  background-image:linear-gradient(to bottom, #c4e0e5 , #4ca1af);
+  background-repeat:no-repeat;
+  height:100%;
+  background-attachment:fixed;
+}
+
+html {
+  height:100%
+  
+}
