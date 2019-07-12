@@ -25,6 +25,9 @@
 a > .bounce {
 color: white; text-decoration: none;
 }
+.fa-arrow-down:link {
+  text-decoration:none;
+}
 
 .arrow {
   text-align: center;
