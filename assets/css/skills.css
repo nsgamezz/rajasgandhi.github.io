@@ -15,9 +15,9 @@
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #808080;} /* Dark Grey */
-.css {width: 65%; background-color: #808080;} /* Dark Grey */
-.js {width: 80%; background-color: #808080;} /* Dark Grey */
-.java {width: 60%; background-color: #808080;} /* Dark Grey */
-.as {width:75%; background-color:#808080} /* Dark Grey */
-.py {width:50%; background-color:#808080} /* Dark Grey */
+.html {width: 90%; background-color: #bac2cf;}
+.css {width: 65%; background-color: #bac2cf;}
+.js {width: 80%; background-color: #bac2cf;}
+.java {width: 60%; background-color: #bac2cf;}
+.as {width:75%; background-color:#bac2cf} 
+.py {width:50%; background-color:#bac2cf} 
