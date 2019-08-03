@@ -52,7 +52,7 @@ color: white; text-decoration: none;
 }
 
 body {
-  background-image:linear-gradient(to bottom, #000 , #00ffcc;
+  background-image:linear-gradient(to bottom, #000 , #00ffcc);
   background-repeat:no-repeat;
   height:100%;
   background-attachment:fixed;
