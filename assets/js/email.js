@@ -1,2 +1,2 @@
 var contactform =  document.getElementById('contactform');
-contactform.action = https://formspree.io/rajasmgandhi@gmail.com;
+contactform.action = formspree.io/rajasmgandhi@gmail.com;
