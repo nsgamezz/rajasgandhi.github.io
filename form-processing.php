@@ -35,7 +35,7 @@ EOD;
 <head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><br />
-<meta HTTP-EQUIV="REFRESH" content="0; url=WEBSITE">
+<meta HTTP-EQUIV="REFRESH" content="0; url=/index">
 <style type="text/css">
 <!--
 body {
