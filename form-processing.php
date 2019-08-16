@@ -9,7 +9,7 @@ while (list($key, $val) = @each($_SESSION)) $GLOBALS[$key] = $val;
 /* Subject and Email Variables */
 
 	$emailSubject = 'Contact Form';
-	$webMaster = 'EMAIL ADDRESS';
+	$webMaster = 'rajasmgandhi@gmail.com';
 	
 /* Gathering Data Variables */
 
