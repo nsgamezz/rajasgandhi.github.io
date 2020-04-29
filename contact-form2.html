@@ -62,9 +62,10 @@
         dataType: "json",
         data: $form.serializeObject()
     }).success(
-            $('#contactform *').fadeOut(2000);
+            $('#contactform *').fadeOut(2000));
             $('#contactform').prepend('Your submission has been processed...');
-        })
+    
+    })
 </script>
 </body>
 </html>
