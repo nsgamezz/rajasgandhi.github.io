@@ -61,7 +61,7 @@
         url: url,
         method: "GET",
         dataType: "json",
-        data: $form.serializeObject()
+        data: JSON.stringify($('#contactform').serializeObject())
     }).success(
             $('#contactform *').fadeOut(2000));
             $('#contactform').prepend('Your submission has been processed...');
