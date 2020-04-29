@@ -11,20 +11,25 @@
 </head>
 
 <body style="background:white; color:black">
-<form method="POST" action="https://formspree.io/rajasmgandhi@gmail.com">
+<form name="contactform" id="contactform" enctype="text/plain" method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSfl3oATjFuPlKl_yuFO92tE94OCSs3Wew76xqXK43GceN467Q/formResponse?" target="hideen_iframe" onsubmit="submitted=true;">
     <p>
-      <label>Name:<br />
-        <input name="Name" type="text" id="FName" size="30" />
+      <label>First Name:<br />
+        <input name="entry.228158447" type="text" id="entry.22815847" size="30" />
+      </label>
+    </p>
+    <p>
+      <label>Last Name:<br />
+        <input name="entry.2098725634" type="text" id="entry.2098725634" size="30" />
       </label>
     </p>
     <p>
       <label>Email:<br />
-        <input name="_replyto" type="text" id="Email" size="48" />
+        <input name="entry.546969202" type="text" id="entry.546969202" size="48" />
       </label>
     </p>
     <p>
       <label>Message:<br />
-        <textarea name="Message" id="Message" cols="50" rows="7"></textarea>
+        <textarea name="entry.82328721" id="entry.82328721" cols="50" rows="7"></textarea>
       </label>
     </p>
     <p>
@@ -32,12 +37,8 @@
         <input name="button" type="submit" class="submit-button" id="button" value="Send" />
       </label>
     </p>
-    <p>
-        <input type="hidden" name="_next" value="/" />
-        <input type="hidden" name="_subject" value="Website contact form" />
-        <input type="text" name="_gotcha" style="display:none" />
-    </p>
   </form>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {}"></iframe>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
@@ -46,5 +47,12 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <!--<script src="assets/js/email.js"></script>-->
+    <script type="text/javascript">var submitted=false;</script>
+    <script type="text/javascript">
+      $('#contactform').on('submit', function(e) {
+        $('#contactform *').fadeOut(2000);
+        $('#contactform').prepend('Your submission has been processed...');
+      });
+    </script>
 </body>
 </html>
